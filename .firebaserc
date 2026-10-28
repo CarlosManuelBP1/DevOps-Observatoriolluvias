@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "default": "observatoriolluvia"
+  },
+  "targets": {
+    "observatoriolluvia": {
+      "hosting": {
+        "dev": [
+          "obs-lluvia-dev"
+        ],
+        "qa": [
+          "obs-lluvia-qa"
+        ],
+        "prod": [
+          "observatoriolluvia"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
